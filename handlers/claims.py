@@ -98,7 +98,7 @@ async def cb_pick_partner(cb: CallbackQuery, state: FSMContext) -> None:
         f"Партнёр: <b>{partner.name}</b>\n"
         f"Тип: <b>{CLAIM_TYPES[code]}</b>\n\n"
         "Введите <b>адрес пекарни</b>, где зафиксированы нарушения "
-        "(например: «г. Санкт-Петербург, ул. Садовая, д. 36»):"
+        "(например: «г. Санкт-Петербург, ул. Восстания, д. 8»):"
     )
     await cb.answer()
 
